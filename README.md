@@ -19,21 +19,28 @@ O Gerador de QR Code é um pequeno aplicativo de linha de comando desenvolvido e
 5. **Feedback:** Após a geração bem-sucedida do QR Code e sua gravação no arquivo, o aplicativo fornece feedback ao usuário, exibindo uma mensagem indicando que o QR Code foi gerado com sucesso e mostrando o nome do arquivo onde o QR Code foi salvo.
 
 ## EXECUTANDO O PROJETO:
-1. Para copilar de `TypeScript` para `JavaScript` digite:
-```bash
-npx tsc CODIGO.ts
-```
+1. **Instalação das Dependências:**
+    Certifique-se de que você tenha o Node.js instalado em seu sistema. Em seguida, navegue até o diretório onde o código-fonte do aplicativo está localizado e execute o seguinte comando para instalar as dependências:
+    ```bash
+    npm install -y
+    ```
 
-2. Execute o aplicativo digitando:
-```bash
-node CODIGO.js
-```
+2. **Copilando:**
+    Após instalar as dependências, compile o arquivo TypeScript (CODIGO.ts) para JavaScript usando o TypeScript Compiler (tsc):
+    ```bash
+    npx tsc CODIGO.ts
+    ```
 
-3. Quando solicitado, insira o texto que deseja codificar no QR Code. E clique em `ENTER`.
+3. **Executando:**
+    Execute o aplicativo pelo NODEJS digitando:
+    ```bash
+    node CODIGO.js
+    ```
 
-4. Aguarde até que o aplicativo gere o QR Code e salve-o no arquivo PNG.
-
-5. Verifique o diretório onde o aplicativo foi executado para encontrar o arquivo "qr_code.png" com o QR Code gerado. (É salvo no mesmo diretório do projeto).
+4. **Interagindo com o Aplicativo**:
+    - Quando solicitado, insira o texto que deseja codificar no QR Code. E clique em `ENTER`.
+    - Aguarde até que o aplicativo gere o QR Code e salve-o no arquivo PNG.
+    - Verifique o diretório onde o aplicativo foi executado para encontrar o arquivo "qr_code.png" com o QR Code gerado. (É salvo no mesmo diretório do projeto).
 
 ## NÃO SABE?
 - Entendemos que para manipular arquivos em `HTML`, `CSS` e outras linguagens relacionadas, é necessário possuir conhecimento nessas áreas. Para auxiliar nesse aprendizado, oferecemos cursos gratuitos disponíveis:
