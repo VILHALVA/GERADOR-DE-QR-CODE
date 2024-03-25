@@ -43,8 +43,7 @@ O Gerador de QR Code é um pequeno aplicativo de linha de comando desenvolvido e
     - Verifique o diretório onde o aplicativo foi executado para encontrar o arquivo "qr_code.png" com o QR Code gerado. (É salvo no mesmo diretório do projeto).
 
 ## NÃO SABE?
-- Entendemos que para manipular arquivos em `HTML`, `CSS` e outras linguagens relacionadas, é necessário possuir conhecimento nessas áreas. Para auxiliar nesse aprendizado, oferecemos cursos gratuitos disponíveis:
-* [CURSO DE HTML E CSS](https://github.com/VILHALVA/CURSO-DE-HTML-E-CSS)
+- Entendemos que para manipular arquivos com essas Tecnologias e linguagens relacionadas, é necessário possuir conhecimento nessas áreas. Para auxiliar nesse aprendizado, oferecemos cursos gratuitos disponíveis:
 * [CURSO DE NODEJS](https://github.com/VILHALVA/CURSO-DE-NODEJS)
 * [CURSO DE TYPESCRIPT](https://github.com/VILHALVA/CURSO-DE-TYPESCRIPT)
 * [CONFIRA MAIS CURSOS](https://github.com/VILHALVA?tab=repositories&q=+topic:CURSO)
