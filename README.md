@@ -22,22 +22,23 @@ O Gerador de QR Code é um pequeno aplicativo de linha de comando desenvolvido e
 1. **Instalação das Dependências:**
     Certifique-se de que você tenha o Node.js instalado em seu sistema. Em seguida, navegue até o diretório onde o código-fonte do aplicativo está localizado e execute o seguinte comando para instalar as dependências:
     ```bash
-    npm install -y
+    npm install
     ```
 
-2. **Copilando:**
-    Após instalar as dependências, compile o arquivo TypeScript (CODIGO.ts) para JavaScript usando o TypeScript Compiler (tsc):
+2. **Executando o APP:**
+    - Agora execute o seguinte comando para compilar o TypeScript em JavaScript e iniciar o aplicativo:
+
+    - Para usar o `NODE`, inicie o bot com o seguinte comando:
     ```bash
-    npx tsc CODIGO.ts
+    npm start
     ```
 
-3. **Executando:**
-    Execute o aplicativo pelo NODEJS digitando:
+    - Para usar o `NODEMON`, inicie o bot com o seguinte comando:
     ```bash
-    node CODIGO.js
+    npm test
     ```
 
-4. **Interagindo com o Aplicativo**:
+3. **Interagindo com o Aplicativo**:
     - Quando solicitado, insira o texto que deseja codificar no QR Code. E clique em `ENTER`.
     - Aguarde até que o aplicativo gere o QR Code e salve-o no arquivo PNG.
     - Verifique o diretório onde o aplicativo foi executado para encontrar o arquivo "qr_code.png" com o QR Code gerado. (É salvo no mesmo diretório do projeto).
